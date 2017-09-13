@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <Button
+        android:id="@+id/sort_all_item_but_1"
+        style="@style/sort_alllist_item_button_style" />
+
+    <Button
+        android:id="@+id/sort_all_item_but_2"
+        style="@style/sort_alllist_item_button_style" />
+
+    <Button
+        android:id="@+id/sort_all_item_but_3"
+        style="@style/sort_alllist_item_button_style"/>
+
+    <Button
+        android:id="@+id/sort_all_item_but_4"
+        style="@style/sort_alllist_item_button_style" />
+
+</LinearLayout>

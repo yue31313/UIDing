@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/back_color" >
+      <TextView android:id="@+id/choose_mer_tital" 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="@style/top_text_style"
+        android:text="火锅"/>
+       <include android:id="@+id/spinner_down_choose_mer" layout="@layout/spinner_down"/>
+       <ListView
+         android:id="@+id/choose_mer_list"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content" 
+         android:layout_marginLeft="10dip"
+         android:layout_marginRight="10dip"
+         android:layout_marginTop="10dip"
+         android:layout_marginBottom="10dip"
+         android:background="#ffcbc1b8"
+         android:scrollbars="none"
+         android:cacheColorHint="#00000000">
+     </ListView>
+    
+
+</LinearLayout>

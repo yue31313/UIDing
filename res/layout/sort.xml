@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+     android:background="#ffcbc1b8">
+
+    <!-- tital  -->
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/top_bg">
+        <EditText android:id="@+id/sort_tital_edit"
+            android:layout_width="0.0dip"
+            android:layout_weight="1.0"
+            android:layout_height="wrap_content"
+            android:background="@drawable/search_bg"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dip"
+            android:layout_marginRight="5dip"
+            android:hint="@string/sort_top_search"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/splitline" />
+        <Button android:id="@+id/sort_tital_but"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/dimensional_but_bg"  />"
+    </LinearLayout>
+    
+     <ScrollView android:layout_width="fill_parent"
+         android:layout_height="fill_parent"
+         android:layout_weight="1.0"
+         android:scrollbars="@null">
+      <LinearLayout android:layout_width="fill_parent"
+           android:layout_height="0.0dip"
+           android:layout_weight="1.0"
+          android:orientation="vertical">
+          <!-- 商户图片显示 -->
+          <com.nian.preferential.ui.SortGrid
+              android:id="@+id/sort_merchant_grid"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:gravity="center_horizontal"
+              android:numColumns="4"
+              android:verticalSpacing="10dip"       
+              android:stretchMode="columnWidth"
+              android:layout_marginTop="5dip"
+              android:layout_marginLeft="10dip"
+              android:layout_marginRight="10dip"
+              android:layout_marginBottom="10dip"
+              >
+          </com.nian.preferential.ui.SortGrid>
+          <!-- 边界线 -->
+           <ImageView android:layout_gravity="center_horizontal"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:src="@drawable/line_5" />  
+	      <!-- 各种分类显示 -->
+          <com.nian.preferential.ui.SortList
+              android:id="@+id/sort_all_list"
+              style="@style/sort_sortlist_style">
+          </com.nian.preferential.ui.SortList> 
+          
+          <com.nian.preferential.ui.SortList
+              android:id="@+id/sort_switch_list"
+              style="@style/sort_sortlist_style">
+          </com.nian.preferential.ui.SortList>       
+       </LinearLayout>>  
+     </ScrollView>
+</LinearLayout>

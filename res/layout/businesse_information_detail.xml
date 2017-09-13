@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/detail_bg"
+    android:orientation="vertical"
+    android:layout_marginTop="20dip"
+    android:layout_marginLeft="10dip"
+    android:layout_marginRight="10dip"
+   >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:layout_marginLeft="10dip"
+        android:src="@drawable/logo_coupon2" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_marginTop="10dip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/listline" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:text="星期八酸菜鱼"
+        android:textColor="#000000"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ff0000"
+        android:layout_marginLeft="15dip"
+        android:textSize="12sp"
+        android:text="全场8.8折" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:text="[剩余时间395天]"
+        android:textSize="18sp"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="   1.该优惠有效期：截止2013年1月30日 \n   2. 凭此券可以享受以下优惠：\n   全场8.8折（烟酒饮料，河海鲜，节假日\n   除外） \n    仅限适用于尚东区花园店。" 
+        android:textColor="#000000"
+        android:textSize="15sp"
+        />
+
+      <ImageView   android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/line_d_2" />
+
+       <ImageView android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/line_d_1" />
+ 
+       <ImageButton  android:id="@+id/bus_info_detail_but"
+        android:layout_width="fill_parent"
+        android:layout_height="40dip" 
+        android:background="#00000000"
+        android:src="@drawable/arrow_down" />
+        <TextView  android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="10dip"
+	        android:layout_marginBottom="10dip"
+	        android:text="@string/detail_explain" 
+	        android:textColor="#000000"
+	        android:textSize="15sp" 
+	        android:id="@+id/bus_info_explor"
+	        android:visibility="gone"  />
+     
+</LinearLayout>

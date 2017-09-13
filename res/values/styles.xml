@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="main_tab_bottom">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:button">@null</item>
+        <item name="android:drawablePadding">@dimen/bottom_tab_padding_drawable</item>
+        <item name="android:paddingTop">@dimen/bottom_tab_padding_up</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+
+    <style name="home_button_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/home_buttons_bg</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+
+    <style name="nearby_spinner_style">
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@null</item>
+        <item name="android:layout_marginTop">6dip</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+
+    <style name="sort_alllist_item_button_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@null</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_marginTop">10dip</item>
+        <item name="android:layout_marginBottom">10dip</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:textSize">15.0sp</item>
+    </style>
+
+    <style name="sort_sortlist_style">
+        <item name="android:background">@drawable/ta_bg</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:divider">@drawable/listline</item>
+        <item name="android:layout_marginLeft">10dip</item>
+        <item name="android:layout_marginRight">10dip</item>
+        <item name="android:layout_marginBottom">10dip</item>
+        <item name="android:cacheColorHint">#00000000</item>
+    </style>
+
+    <style name="some_used">
+        <item name="android:layout_marginTop">10dip</item>
+        <item name="android:layout_marginLeft">10dip</item>
+        <item name="android:layout_marginRight">10dip</item>
+        <item name="android:layout_marginBottom">10dip</item>
+    </style>
+
+    <style name="more_text_style">
+        <item name="android:textSize">15.0sp</item>
+        <item name="android:background">#00000000</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="top_text_style">
+        <item name="android:background">@drawable/top_bg</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">20.0sp</item>
+    </style>
+
+    <style name="bus_info_text_style">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <style name="bus_view">
+        <item name="@android:windowEnterAnimation">@anim/in</item>
+        <item name="@android:windowExitAnimation">@anim/out</item>
+    </style>
+
+</resources>

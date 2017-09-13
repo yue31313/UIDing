@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#ffcbc1b8">
+    
+    <!-- top tital -->
+  <LinearLayout android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:background="@drawable/top_bg"
+      android:orientation="horizontal">
+    <Button
+        android:id="@+id/nearby_serach_but"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/nearby_search_bg"/>
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/splitline" />
+    <TextView
+        android:layout_width="0.0dip"
+        android:layout_weight="1.0"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="@string/nearby_top_tital"
+        android:textColor="#ffffff" />
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/splitline" />    <Button
+        android:id="@+id/nearby_map_but"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/nearby_map_bg" />
+  </LinearLayout>
+     <!-- drop down -->
+     <include android:id="@+id/spinner_down_nearby" layout="@layout/spinner_down"/>
+     <!-- <LinearLayout android:layout_width="fill_parent"
+         android:layout_height="30dip"
+         android:orientation="horizontal"
+         android:background="@drawable/filter_bg"
+         android:layout_marginTop="5dip"
+         android:layout_marginLeft="5dip"
+         android:layout_marginRight="5dip">
+	    <Spinner
+	         android:id="@+id/nearby_distance_spinner"
+	         style="@style/nearby_spinner_style" />
+	    <Spinner
+	         android:id="@+id/nearby_class_spinner"
+	         style="@style/nearby_spinner_style" />
+	    <Spinner
+	         android:id="@+id/nearby_away_spinner"
+	         style="@style/nearby_spinner_style" />
+    </LinearLayout> -->
+
+     <TextView android:textColor="@android:color/black"
+         android:gravity="center_horizontal"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="2dip"
+         android:textSize="@dimen/nearby_location_tital"
+         android:text="@string/nearby_top_location" />
+
+     <ListView
+         android:id="@+id/nearby_list_content"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content" 
+         android:layout_marginLeft="10dip"
+         android:layout_marginRight="10dip"
+         android:layout_marginTop="10dip"
+         android:layout_marginBottom="10dip"
+         android:background="#ffcbc1b8"
+         android:scrollbars="none"
+         android:cacheColorHint="#00000000">
+     </ListView>
+   
+</LinearLayout>

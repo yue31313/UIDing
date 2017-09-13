@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/back_color" >
+    <TextView android:id="@+id/choose_top_tital" 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="@style/top_text_style"
+        android:text="@string/two_tital_string"
+        />
+
+    <ImageView  
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/teach_tow" 
+        android:layout_marginTop="20dip"/>
+    <RelativeLayout android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="20dip"
+        >
+    <Button
+        android:id="@+id/two_scan_but"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/two_but_string"
+        android:layout_marginTop="20dip"
+        android:background="@drawable/button_r" />
+    <CheckBox
+        android:id="@+id/two_noti_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/two_checkbox_string"
+        android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    
+
+</LinearLayout>

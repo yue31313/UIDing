@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/back_color"
+    android:orientation="vertical"
+   >
+   <!-- tital -->
+   <TextView android:id="@+id/bus_info_tital" 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="@style/top_text_style"
+        android:text="星期八酸菜鱼"
+     />
+     <ScrollView android:id="@+id/scrollView" 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"> 
+
+	   <RelativeLayout
+	       android:layout_width="fill_parent"
+	       android:layout_height="fill_parent" >
+	       <include android:id="@+id/info_detial" layout="@layout/businesse_information_detail"/>
+	       <ImageView
+	           android:layout_width="wrap_content"
+	           android:layout_height="wrap_content"
+	           android:layout_alignParentRight="true"
+	           android:layout_alignParentTop="true"
+	           android:layout_marginTop="10dip"
+	           android:layout_marginRight="20dip"
+	           android:src="@drawable/rel_det_stamp" />
+	       
+	       
+	       <LinearLayout android:layout_width="fill_parent"
+	          android:layout_height="wrap_content"
+	          android:background="@drawable/ta_bg"
+	          android:id="@+id/bus_info_1"
+	          android:layout_below="@id/info_detial"
+	           style="@style/some_used" >
+		      <RelativeLayout android:layout_width="fill_parent"
+		         android:layout_height="wrap_content"
+		         android:layout_marginTop="10dip"
+		         android:layout_marginBottom="10dip"
+		         >
+		        <ImageView
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_alignParentRight="true"
+		            android:layout_centerVertical="true"
+		            android:layout_marginRight="20dp"
+		            android:src="@drawable/arrow_b" />
+		
+		        <Button
+		            android:id="@+id/button1"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:background="#00000000"
+		            android:layout_alignParentLeft="true"
+		            android:layout_marginLeft="10dip"
+		            android:text="门店（1）"
+		            android:textSize="15sp" />
+		        
+		    </RelativeLayout>
+          </LinearLayout>
+          <!-- fdkjghdfkghsl;dfkjg sldfjkg sldf;kghl sfk;hj sl;fhjsfklhj l;dfkh sfl'kg kl; -->
+           <LinearLayout android:layout_width="fill_parent"
+	          android:layout_height="wrap_content"
+	          android:background="@drawable/detail_bg"
+	          android:id="@+id/bus_info_2"
+	          android:layout_below="@id/bus_info_1"
+	           style="@style/some_used" >
+		      <RelativeLayout android:layout_width="fill_parent"
+		         android:layout_height="wrap_content"
+		         android:layout_marginTop="10dip"
+		         android:layout_marginBottom="10dip"
+		         >
+		        <ImageView
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_alignParentRight="true"
+		            android:layout_centerVertical="true"
+		            android:layout_marginRight="20dp"
+		            android:src="@drawable/arrow_b" />
+		
+		       <LinearLayout android:layout_width="fill_parent"
+		           android:layout_height="wrap_content"
+		           android:orientation="vertical">
+		               <TextView
+					        android:id="@+id/textView1"
+					        android:layout_marginLeft="10dip"
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:textSize="15sp"
+					        android:textColor="#ff0000"
+					        android:text="点评（10封）" />
+					
+					    <LinearLayout
+					        android:id="@+id/linearLayout1"
+					        android:layout_marginTop="10dip"
+					        android:layout_marginLeft="10dip"
+					        android:layout_width="match_parent"
+					        android:layout_height="wrap_content" >
+					
+					        <TextView
+					            android:id="@+id/textView2"
+					            android:layout_width="wrap_content"
+					            android:layout_height="wrap_content"
+					            android:textColor="#000000"
+					            android:text="服务" />
+					
+					        <ImageView
+					            android:id="@+id/imageView1"
+					            android:layout_width="wrap_content"
+					            android:layout_height="wrap_content"
+					            android:layout_gravity="center_vertical"
+					            android:src="@drawable/jdt_2" />
+					
+					        <TextView
+					            android:id="@+id/textView3"
+					            android:layout_width="wrap_content"
+					            android:layout_height="wrap_content"
+					            android:text="80" />
+					
+					    </LinearLayout>
+					    
+					    <LinearLayout
+					        android:id="@+id/linearLayout1"
+					        android:layout_width="match_parent"
+					         android:layout_marginTop="10dip"
+					         android:layout_marginLeft="10dip"
+					        android:layout_height="wrap_content" >
+					
+					        <TextView
+					            android:id="@+id/textView2"
+					            android:layout_width="wrap_content"
+					            android:layout_height="wrap_content"
+					            android:textColor="#000000"
+					            android:text="环境" />
+					
+					        <ImageView
+					            android:id="@+id/imageView1"
+					            android:layout_width="wrap_content"
+					            android:layout_height="wrap_content"
+					            android:layout_gravity="center_vertical"
+					            android:src="@drawable/jdt_2" />
+					
+					        <TextView
+					            android:id="@+id/textView3"
+					            android:layout_width="wrap_content"
+					            android:layout_height="wrap_content"
+					            android:text="93" />
+					
+					    </LinearLayout>
+					    
+					    <LinearLayout
+					        android:id="@+id/linearLayout1"
+					         android:layout_marginTop="10dip"
+					         android:layout_marginLeft="10dip"
+					        android:layout_width="match_parent"
+					        android:layout_height="wrap_content" >
+					
+					        <TextView
+					            android:id="@+id/textView2"
+					            android:layout_width="wrap_content"
+					            android:layout_height="wrap_content"
+					            android:textColor="#000000"
+					            android:text="口味" />
+					
+					        <ImageView
+					            android:id="@+id/imageView1"
+					            android:layout_width="wrap_content"
+					            android:layout_height="wrap_content"
+					            android:layout_gravity="center_vertical"
+					            android:src="@drawable/jdt_2" />
+					
+					        <TextView
+					            android:id="@+id/textView3"
+					            android:layout_width="wrap_content"
+					            android:layout_height="wrap_content"
+					            android:text="87" />
+					
+					    </LinearLayout>
+		        </LinearLayout>
+		    </RelativeLayout>
+          </LinearLayout>       
+	      <LinearLayout android:layout_width="fill_parent"
+	          android:layout_height="wrap_content"
+	          android:background="@drawable/ta_bg"
+	          android:id="@+id/bus_info_3"
+	          android:layout_below="@id/bus_info_2"
+	           style="@style/some_used" >
+		      <RelativeLayout android:layout_width="fill_parent"
+		         android:layout_height="wrap_content"
+		         android:layout_marginTop="10dip"
+		         android:layout_marginBottom="10dip"
+		         >
+		        <ImageView
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_alignParentRight="true"
+		            android:layout_centerVertical="true"
+		            android:layout_marginRight="20dp"
+		            android:src="@drawable/arrow_b" />
+		
+		        <Button
+		            android:id="@+id/button1"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:background="#00000000"
+		            android:layout_alignParentLeft="true"
+		            android:layout_marginLeft="10dip"
+		            android:text="商户简介"
+		            android:textSize="15sp" />
+		        
+		    </RelativeLayout>
+          </LinearLayout>   
+          
+         <View android:layout_below="@id/bus_info_3" 
+             android:layout_width="fill_parent"
+             android:layout_height="100dip"
+             android:background="#00000000"/>
+	
+	   </RelativeLayout>
+
+    </ScrollView> 
+   
+</LinearLayout>

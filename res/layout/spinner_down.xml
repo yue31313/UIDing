@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+         android:layout_height="30dip"
+         android:orientation="horizontal"
+         android:background="@drawable/filter_bg"
+         android:layout_marginTop="5dip"
+         android:layout_marginLeft="5dip"
+         android:layout_marginRight="5dip">
+
+	    <Spinner
+	         android:id="@+id/nearby_distance_spinner"
+	         style="@style/nearby_spinner_style" />
+	    <Spinner
+	         android:id="@+id/nearby_class_spinner"
+	         style="@style/nearby_spinner_style" />
+	    <Spinner
+	         android:id="@+id/nearby_away_spinner"
+	         style="@style/nearby_spinner_style" />
+   
+
+</LinearLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" 
+    android:background="@drawable/ta_bg"
+    >
+    <!-- 头像 -->
+    <ImageView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/near_hearview"
+        android:visibility="gone"/>
+    
+   <LinearLayout android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical">
+    <TextView
+        android:id="@+id/nearby_item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:text="XXXXXXXXXXX" />
+
+    <TextView
+        android:id="@+id/nearby_item_local"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="xxxxxxx" />
+    
+     <RelativeLayout android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         >
+         
+     <ImageView
+         android:id="@+id/local_bg"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:src="@drawable/dw" />
+
+     <TextView
+         android:id="@+id/nearby_item_dis1"
+         android:layout_marginLeft="10dip"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_toRightOf="@id/local_bg"
+         android:textSize="12sp"
+         android:text="300m" />
+
+     <TextView
+         android:id="@+id/nearby_item_dis2"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_centerInParent="true"
+         android:textSize="12sp"
+         android:text="xx路xx号" />
+
+     <TextView
+         android:id="@+id/nearby_item_dis3"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:textSize="12sp"
+         android:layout_alignParentRight="true"
+         android:text="2000人使用" />
+     
+     </RelativeLayout>
+
+  </LinearLayout>
+</LinearLayout>

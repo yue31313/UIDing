@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/detail_bg_b"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/imageButton1"
+        style="@style/bus_info_text_style"
+        android:drawableTop="@drawable/topic"
+        android:text="@string/bus_info_but_1" />
+
+    <TextView
+        android:id="@+id/imageButton2"
+        style="@style/bus_info_text_style"
+        android:drawableTop="@drawable/bag"
+        android:text="@string/bus_info_but_2" />
+
+    <TextView
+        android:id="@+id/imageButton3"
+        style="@style/bus_info_text_style"
+        android:drawableTop="@drawable/share"
+        android:text="@string/bus_info_but_3" />
+
+    <TextView
+        android:id="@+id/imageButton4"
+        style="@style/bus_info_text_style"
+        android:drawableTop="@drawable/attion_add"
+        android:text="@string/bus_info_but_4" />
+
+</LinearLayout>

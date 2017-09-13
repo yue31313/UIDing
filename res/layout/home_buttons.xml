@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:orientation="vertical" >
+
+    <LinearLayout android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:layout_gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/home_buttons_huoguo"
+            style="@style/home_button_style"
+            android:text="火锅" />
+         <Button
+            android:id="@+id/home_buttons_rihan"
+            style="@style/home_button_style"
+            android:text="日韩"
+            android:layout_marginLeft="10dip" />
+          <Button
+            android:id="@+id/home_buttons_xiaochi"
+            style="@style/home_button_style"
+            android:layout_marginLeft="10dip"
+            android:text="小吃快餐" />
+           <Button
+            android:id="@+id/home_buttons_jiangzhe"
+            android:layout_marginLeft="10dip"
+            style="@style/home_button_style"
+            android:text="江浙菜" />
+        
+    </LinearLayout>
+    <LinearLayout android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dip"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:layout_gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/home_buttons_chacanting"
+            style="@style/home_button_style"
+            android:text="茶餐厅" />
+         <Button
+            android:id="@+id/home_buttons_zizhu"
+            style="@style/home_button_style"
+            android:text="自助"
+            android:layout_marginLeft="10dip" />
+          <Button
+            android:id="@+id/home_buttons_spa"
+            style="@style/home_button_style"
+            android:text="美容SPA"
+            android:layout_marginLeft="10dip" />
+           <Button
+            android:id="@+id/home_buttons_shoushen"
+            style="@style/home_button_style"
+            android:layout_marginLeft="10dip"
+            android:text="瘦身纤体" />
+        
+    </LinearLayout>
+</LinearLayout>

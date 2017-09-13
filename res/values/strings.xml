@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">鱼小念</string>
+    <string name="hello_text">等待....</string>
+    <string name="nearby_top_tital">附近</string>
+    <string name="nearby_top_location">我在：上海市徐汇区xx号</string>
+    <string name="sort_top_search">输入商户名</string>
+	<string name="sort_alllist_string_1_1">烧烤</string>
+	<string name="sort_alllist_string_1_2">日韩</string>
+	<string name="sort_alllist_string_1_3">湘菜</string>
+	<string name="sort_alllist_string_1_4">KTV</string>
+	<string name="sort_alllist_string_2_1">火锅</string>
+	<string name="sort_alllist_string_2_2">自助</string>
+	<string name="sort_alllist_string_2_3">川菜</string>
+	<string name="sort_alllist_string_2_4">酒店</string>
+	<string name="sort_alllist_string_3_1">海鲜</string>
+	<string name="sort_alllist_string_3_2">快餐</string>
+	<string name="sort_alllist_string_3_3">粤菜</string>
+	<string name="sort_alllist_string_3_4">饮品</string>
+	<string name="sort_alllist_string_4_1">茶餐厅</string>
+	<string name="sort_alllist_string_4_2">西餐</string>
+	<string name="sort_alllist_string_4_3">上海菜</string>
+	<string name="sort_alllist_string_4_4">甜品</string>
+	<string name="sort_switch_string_1">商圈选择</string>
+	<string name="sort_switch_string_2">美食</string>
+	<string name="sort_switch_string_3">丽人</string>
+	<string name="sort_switch_string_4">休闲娱乐</string>
+	<string name="sort_switch_string_5">生活服务</string>
+    <string name="more_tital">更多</string>
+    <string name="more_fabu">发布优惠券</string>
+    <string name="more_system">系统设置</string>
+    <string name="more_person">个人设置</string>
+    <string name="more_mine">我有意见</string>
+    <string name="more_new_version">新版本检测</string>
+    <string name="more_kefu">客服 xxx-xxx-xxxx</string>
+    <string name="home_edit_hint">商户名</string>
+    <string name="home_location_default">上海</string>
+    <string name="choose_city_text">选择城市-<xliff:g id="city">%s</xliff:g></string>
+    <string name="choose_current_city">当前定位城市：<xliff:g id="city">%s</xliff:g></string>
+    <string name="choose_citys_more">目前已经开通38个城市，更多城市正在开通中</string>
+    <string name="two_tital_string">扫二维码</string>    
+    <string name="two_but_string">马上开始扫码</string>
+    <string name="two_checkbox_string">下次不再提醒</string>
+    <string name="detail_explain"> 除特殊注明外，本优惠不能与其他优惠同时享受；\n 本优惠最终解释权归商家所有，如有疑问请与商家联系。\n 提示： 为了使您得到更好的服务，请在进店时出示本券。</string>
+    <string name="bus_info_but_1">点评</string>
+    <string name="bus_info_but_2">放入口袋</string>
+    <string name="bus_info_but_3">分享</string>
+    <string name="bus_info_but_4">关注商户</string>
+</resources>
